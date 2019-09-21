@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0F10B823365AD1003B6A53 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10B723365AD1003B6A53 /* CustomButton.m */; };
 		E627CA9F22370A220034A890 /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E627CA9E22370A220034A890 /* icon1024.png */; };
 		E63647CC22424A17002EAC48 /* rounded.png in Resources */ = {isa = PBXBuildFile; fileRef = E63647CB22424A17002EAC48 /* rounded.png */; };
 		E66A99962230610C007FE1BD /* pic-test2.png in Resources */ = {isa = PBXBuildFile; fileRef = E66A99952230610C007FE1BD /* pic-test2.png */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F0F10B623365AD1003B6A53 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		5F0F10B723365AD1003B6A53 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 		E627CA9E22370A220034A890 /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
 		E63647CB22424A17002EAC48 /* rounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rounded.png; sourceTree = "<group>"; };
 		E66A99952230610C007FE1BD /* pic-test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic-test2.png"; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 		E6CBFBB32230562D00CAE1DC /* NoNotch */ = {
 			isa = PBXGroup;
 			children = (
+				5F0F10B623365AD1003B6A53 /* CustomButton.h */,
+				5F0F10B723365AD1003B6A53 /* CustomButton.m */,
 				E6CBFBB42230562D00CAE1DC /* AppDelegate.h */,
 				E6CBFBB52230562D00CAE1DC /* AppDelegate.m */,
 				E6CBFBB72230562D00CAE1DC /* ViewController.h */,
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0F10B823365AD1003B6A53 /* CustomButton.m in Sources */,
 				E6CBFBB92230562D00CAE1DC /* ViewController.m in Sources */,
 				E6CBFBC42230562F00CAE1DC /* main.m in Sources */,
 				E6CBFBB62230562D00CAE1DC /* AppDelegate.m in Sources */,
